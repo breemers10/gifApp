@@ -1,0 +1,24 @@
+PODS:
+  - GiphyCoreSDK (1.4.2)
+  - Kingfisher (5.3.1)
+  - SwiftyGif (5.0.0)
+
+DEPENDENCIES:
+  - GiphyCoreSDK
+  - Kingfisher
+  - SwiftyGif
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GiphyCoreSDK
+    - Kingfisher
+    - SwiftyGif
+
+SPEC CHECKSUMS:
+  GiphyCoreSDK: 1a89e03e55dc6b636b9d40fde76107867dbb9da5
+  Kingfisher: d9e7e0b209b59b8f9873aa2f37654e81a7beea51
+  SwiftyGif: 67490485c3b1fa19013d9613fab31de4629450fb
+
+PODFILE CHECKSUM: 6d3e30181622718ecdf050e937d26ab24ed1d5f0
+
+COCOAPODS: 1.6.0
