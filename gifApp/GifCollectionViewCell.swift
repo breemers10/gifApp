@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SwiftyGif
 import Kingfisher
 
 class GifCollectionViewCell: UICollectionViewCell {
