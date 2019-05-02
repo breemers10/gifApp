@@ -18,7 +18,7 @@ class GifViewModel {
     }
     
     func searchGif(search: String, with completionHandler: @escaping (Bool) -> Void) {
-        GiphyCore.shared.search(search, media: .gif, offset: 2, limit: 100, rating: .ratedG, lang: .english, completionHandler: { (response, error) in
+        GiphyCore.shared.search(search, media: .gif, limit: 1000, completionHandler: { (response, error) in
             SharedInstance.instance.gifArray = []
             if let error = error {
                 print("error in response", error)
@@ -43,7 +43,7 @@ class GifViewModel {
     }
     
     func getGif() {
-        GiphyCore.shared.trending(.gif, limit: 100) { (response, error) in
+        GiphyCore.shared.trending(.gif, limit: 1000) { (response, error) in
             SharedInstance.instance.gifArray = []
             
             guard
